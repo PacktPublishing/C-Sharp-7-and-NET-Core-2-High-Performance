@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  vendor.api:
+    image: vendor.api
+    build:
+      context: .
+      dockerfile: src\Microservices\Vendor\Vendor.API\Dockerfile
+ 

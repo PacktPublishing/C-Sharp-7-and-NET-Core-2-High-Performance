@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  vendor.api:
+    environment:
+      - ConnectionString=Server=tfxdubaidb.database.windows.net;Database=elasticdbserver;User Id=ovais;Password=P@ssw0rd;
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+networks:
+  default:
+    external:
+      name: nat
+
+
+
