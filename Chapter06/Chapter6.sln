@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter6WebApp", "Chapter6WebApp\Chapter6WebApp.csproj", "{69ABEC9A-0815-4952-ADFD-0A4360A594D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter6MemAlloc", "Chapter6MemAlloc\Chapter6MemAlloc.csproj", "{B97BCE51-9731-4F5B-9696-425379873471}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69ABEC9A-0815-4952-ADFD-0A4360A594D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69ABEC9A-0815-4952-ADFD-0A4360A594D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69ABEC9A-0815-4952-ADFD-0A4360A594D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69ABEC9A-0815-4952-ADFD-0A4360A594D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B97BCE51-9731-4F5B-9696-425379873471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97BCE51-9731-4F5B-9696-425379873471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97BCE51-9731-4F5B-9696-425379873471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97BCE51-9731-4F5B-9696-425379873471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CC7C820-FEFE-475C-831B-8186ECC24672}
+	EndGlobalSection
+EndGlobal
