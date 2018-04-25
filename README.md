@@ -1,4 +1,4 @@
-# Network Programming with Rust
+# C# 7 and .NET Core 2.0 High Performance
 This is the code repository for [C# 7 and .NET Core 2.0 High Performance](https://www.packtpub.com/application-development/c-7-and-net-core-20-high-performance?utm_source=github&utm_medium=repository&utm_campaign=9781788470049), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
 Rust is low-level enough to provide fine-grained control over memory while providing safety through compile-time validation. This makes it uniquely suitable for writing low-level networking applications.
