@@ -1,5 +1,5 @@
 # Network Programming with Rust
-This is the code repository for [Network Programming with Rust](https://www.packtpub.com/application-development/network-programming-rust?utm_source=github&utm_medium=repository&utm_campaign=9781788624893), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
+This is the code repository for [C# 7 and .NET Core 2.0 High Performance](https://www.packtpub.com/application-development/c-7-and-net-core-20-high-performance?utm_source=github&utm_medium=repository&utm_campaign=9781788470049), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
 Rust is low-level enough to provide fine-grained control over memory while providing safety through compile-time validation. This makes it uniquely suitable for writing low-level networking applications.
 
@@ -10,27 +10,21 @@ After reading this book, you will be more than confident enough to use Rust to b
 ## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
 
-There is no code in Chapter 1
 
 The code will look like the following:
 ```
-[package]
-name = "hello-rust"
-version = "0.1.0"
-authors = ["Foo Bar <foo.bar@foobar.com>"]
+public static IWebHost BuildWebHost(string[] args) => 
+  WebHost.CreateDefaultBuilder(args) 
+    .UseMetrics() 
+    .UseStartup<Startup>() 
+    .Build(); 
 ```
 
-They are either already familiar with Rust or are planning to start learning the language
-They have a commercial background in software engineering using other programming languages and are aware about the tradeoffs in developing software using different programming languages
-They have a basic familiarity with networking concepts
-They can appreciate why distributed systems are important in modern computing
+This book is for .NET developers who want to improve the speed of their application's code or who simply want to take their skills to the next level, where they can develop and produce quality applications that are not only performant but also adhere to the industry best practices. Basic C# knowledge is assumed.
 
 ## Related Products
-* [Rust Blueprints](https://www.packtpub.com/application-development/rust-blueprints?utm_source=github&utm_medium=repository&utm_campaign=9781788473835)
+* [C# 7 and .NET Core 2.0 Blueprints](https://www.packtpub.com/application-development/c-7-and-net-core-20-blueprints?utm_source=github&utm_medium=repository&utm_campaign=9781788396196)
 
-* [Rust High Performance](https://www.packtpub.com/application-development/rust-high-performance?utm_source=github&utm_medium=repository&utm_campaign=9781788399487)
+* [C# 7.1 and .NET Core 2.0 – Modern Cross-Platform Development - Third Edition](https://www.packtpub.com/application-development/c-71-and-net-core-20-%E2%80%93-modern-cross-platform-development-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781788398077)
 
-* [RUST Design Patterns and Best Practices](https://www.packtpub.com/application-development/rust-design-patterns-and-best-practices?utm_source=github&utm_medium=repository&utm_campaign=9781788833370)
-
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
+* [.NET Core 2.0 By Example](https://www.packtpub.com/application-development/net-core-20-example?utm_source=github&utm_medium=repository&utm_campaign=9781788395090)
