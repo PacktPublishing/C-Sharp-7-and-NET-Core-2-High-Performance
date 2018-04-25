@@ -1,11 +1,11 @@
 # C# 7 and .NET Core 2.0 High Performance
 This is the code repository for [C# 7 and .NET Core 2.0 High Performance](https://www.packtpub.com/application-development/c-7-and-net-core-20-high-performance?utm_source=github&utm_medium=repository&utm_campaign=9781788470049), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
-Rust is low-level enough to provide fine-grained control over memory while providing safety through compile-time validation. This makes it uniquely suitable for writing low-level networking applications.
+While writing an application, performance is paramount. Performance tuning for realworld applications often involves activities geared toward fnding bottlenecks; however, this cannot solve the dreaded problem of slower code. If you want to improve the speed of your code and optimize an application's performance, then this book is for you. C# 7 and .NET Core 2.0 High Performance begins with an introduction to the new features of what?explaining how they help in improving an application's performance. 
 
-This book is divided into three main parts that will take you on an exciting journey: building a fully functional web server. The book starts with a solid introduction to Rust and essential networking concepts. This will lay a foundation for, and set the tone of, the entire book. It takes an in-depth look at using Rust for networking software. Starting with client-server networking using sockets to IPv4/v6, DNS, TCP, UDP, you will also learn about serializing and deserializing data using serde. The book shows how to communicate with REST servers over HTTP and implement asynchronous network programming using the Tokio stack. Given the importance of security for modern systems, you will see how Rust supports common primitives such as TLS and public key cryptography.
+Learn to identify the bottlenecks in writing programs and highlight common performance pitfalls, and learn strategies to detect and resolve these issues early. You will explore multithreading and asynchronous programming with .NET Core and learn the importance and effcient use of data structures. This is followed with memory management techniques and design guidelines to increase an application’s performance. Gradually, the book will show you the importance of microservices architecture for building highly performant applications and implementing resiliency and security in .NET Core. 
 
-After reading this book, you will be more than confident enough to use Rust to build effective networking software.
+After reading this book, you will learn how to structure and build scalable, optimized, and robust applications in C#7 and .NET.
 
 ## Instructions and Navigation
 All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
